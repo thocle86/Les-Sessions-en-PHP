@@ -1,6 +1,8 @@
 <?php require 'inc/head.php'; ?>
 <?php
-if(isset($_POST["loginname"])) {
+if(
+    isset($_POST["loginname"]) &&
+    $_POST["loginname"] != "") {
     $_SESSION["login"] = $_POST["loginname"];
 }
 if(isset($_SESSION["login"])) {

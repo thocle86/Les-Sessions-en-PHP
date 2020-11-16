@@ -58,6 +58,6 @@
         </div><!-- /.container-fluid -->
     </nav>
     <div class="container-fluid text-right">
-        <strong>Hello <?php echo $_SESSION["login"];?> !</strong>
+        <strong>Hello <span><?php echo $_SESSION["login"];?> !</span></strong>
     </div>
 </header>

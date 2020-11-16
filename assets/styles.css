@@ -86,3 +86,22 @@ section.cookies{
   border: solid 1px red;
   background-color: white;
 }
+table, th, td {
+  margin: 50px auto;
+  padding: 10px 30px;
+  border: 1px solid #333;
+  text-align: center;
+  font-size: 20px;
+}
+thead, tfoot {
+  background-color: #333;
+  color: #fff;
+}
+
+.text-right {
+  font-size: 30px;
+}
+.text-right span{
+  color: red;
+  font-size: 40px;
+}
